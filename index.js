@@ -12,6 +12,6 @@ bonusBalance -= 10 * 3;
 console.log("Баланс через 10 дней: " + bonusBalance);
 console.log();
 console.log("Задача №3");
-//bonusBalance = 131;
+//bonusBalance = 131; Берем значение из второй задачи
 bonusBalance = (bonusBalance - bonusBalance % 80) / 80;
 console.log("Можно купить " + bonusBalance + " килограмма пастилы");
